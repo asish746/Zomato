@@ -1,0 +1,162 @@
+body {
+  margin: auto;
+}
+.kumar {
+  background-color: red;
+  height: 60px;
+  color: white;
+}
+.navbar {
+  background-color: red;
+  width: 100%;
+}
+.first_tile {
+  color: white;
+  margin-left: 12%;
+  padding-top: 1%;
+  float: left;
+  width: 60%;
+}
+.second_tile {
+  float: none;
+  padding-top: 1.5%;
+  /* padding-left:2%; */
+  /* text-align: center; */
+}
+span {
+  padding-left: 2%;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.logo {
+  font-size: 25px;
+}
+.picture {
+  /* border:2px solid blue;  */
+  background: url("pic5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.slogo {
+  text-align: center;
+  padding-top: 8%;
+  font-size: 40px;
+  color: red;
+  font-family: sans-serif;
+}
+.zlogo {
+  background-color: white;
+  border-radius: 50%;
+  padding: 1%;
+}
+.food {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 1.5%;
+}
+.search {
+  margin-left: 30%;
+  padding-top: 1.5%;
+}
+.location {
+  width: 30%;
+  outline: none;
+  border: none;
+  height: 30px;
+  text-transform: capitalize;
+  padding-left: 2%;
+}
+.searchfood {
+  height: 30px;
+  width: 30%;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  padding-left: 2%;
+}
+#quicksearch {
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
+}
+.comp {
+  margin-left: 2%;
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 0.2;
+}
+.comp1 {
+  margin-left: 2%;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1;
+}
+.tilecomponent {
+  width: 100%;
+  background-color: blue;
+  margin-top: 2%;
+}
+
+.card {
+  width: 30%;
+  height: 280px;
+  float: left;
+  margin-left: 2%;
+  background-color:rgb(190, 182, 174);
+  border-radius: 5px;
+  margin-top: 2%;
+  box-shadow:2px 2px 2px black;
+}
+.box {
+  width: 100%;
+  height: 200px;
+  border-radius: 2%;
+  /* background-color: blue; */
+  border-radius: 2%;
+  float: left;
+ 
+}
+img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  /* border-radius: 5px; */
+}
+.para{
+  text-align:center;
+  float:none;
+  color:black;
+  font-size:30px;
+  line-height:3;
+}
+.color{
+  color:black;
+  font-size:25px;
+}
+
+footer{
+ background-color:#719ca3;
+ color:black;
+  float:right;
+  width:100%;
+  height:60px;
+  padding:2%;
+  text-align:center;
+  margin-top:2%;
+  font-weight:bold;
+ 
+}
+@media only screen and (max-width: 650px){
+  .card{
+    width:100%;
+    background-color:white;
+    box-shadow: 0 3px 6px 0 rgba(19, 18, 18, 0.16);
+    margin-top:5%;
+  }
+}
